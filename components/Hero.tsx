@@ -1,16 +1,15 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaRegFilePdf } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { socialMedia } from "@/data";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
-      {/**
-       *  UI: Spotlights
-       *  Link: https://ui.aceternity.com/components/spotlight
-       */}
+    <div className="pt-36">
+       {/* UI: Spotlights */}
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -41,32 +40,48 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] pt-[4rem] flex flex-col items-center justify-center">
+          <p className="uppercase tracking-widest text-xl text-center text-blue-100 max-w-80">
+            Hi there, I&apos;m
           </p>
 
           {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="Amjad Mounir"
+            className="text-center text-4xl md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+          <p className="text-center font-bold uppercase md:tracking-wider text-lg lg:text-4xl mb-6 md:mb-0">
+            Web Developer & Freelancer.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex flex-wrap justify-center gap-x-3 gap-y-4">
+            <a href="#projects" title="Projects">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            {socialMedia.map((info) => (
+              <a
+                key={info.id} target="_blank" rel="noopener" title={info.title}
+                href={info.link}
+                className="w-12 h-12 md:mt-10 cursor-pointer overflow-hidden p-[1px] flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 focus:outline-none"
+              >
+                <Image src={info.img} alt="icons" width={20} height={20} />
+              </a>
+            ))}
+            <a href="https://drive.google.com/file/d/1Z7-ng5YKwNtWMEtEgr8pS2JincCwg79V/view?usp=sharing" target="_blank" rel="noopener" title="Resume">
+              <MagicButton
+                title="Resume"
+                icon={<FaRegFilePdf />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
