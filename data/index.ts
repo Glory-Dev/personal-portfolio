@@ -1,9 +1,103 @@
 export const navItems = [
-  { name: "About", link: "#about" },
+  // { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Courses", link: "#courses" },
   { name: "Contact", link: "#contact" },
 ];
+
+export const skills = [
+  {
+    id: 1,
+    img: "html.png",
+    title: "HTML",
+  },
+  {
+    id: 2,
+    img: "css.png",
+    title: "CSS",
+  },
+  {
+    id: 3,
+    img: "js.png",
+    title: "Javascript",
+  },
+  {
+    id: 4,
+    img: "ts.svg",
+    title: "Typescript",
+  },
+  {
+    id: 5,
+    img: "re.svg",
+    title: "React.js",
+  },
+  {
+    id: 6,
+    img: "next.svg",
+    title: "Next.js",
+  },
+  {
+    id: 7,
+    img: "astro.png",
+    title: "Astro",
+  },
+  {
+    id: 8,
+    img: "bootstrap.png",
+    title: "Bootstrap",
+  },
+  {
+    id: 9,
+    img: "tail.svg",
+    title: "Tailwind CSS",
+  },
+  {
+    id: 10,
+    img: "sass.png",
+    title: "SASS",
+  },
+  {
+    id: 11,
+    img: "pug.png",
+    title: "Pug.js",
+  },
+  {
+    id: 12,
+    img: "gulp.png",
+    title: "Gulp.js",
+  },
+  {
+    id: 13,
+    img: "cpp.png",
+    title: "C++",
+  },
+  {
+    id: 14,
+    img: "python.png",
+    title: "Python",
+  },
+  {
+    id: 15,
+    img: "command-line.png",
+    title: "Command Line",
+  },
+  {
+    id: 16,
+    img: "github.png",
+    title: "Github",
+  },
+  {
+    id: 17,
+    img: "notion.png",
+    title: "Notion",
+  },
+  {
+    id: 18,
+    img: "chatgpt.png",
+    title: "Chat GPT",
+  },
+]
 
 export const gridItems = [
   {
@@ -28,8 +122,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -49,7 +143,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently studying at Gharbiya STEM High School and Building my Blog",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,33 +168,37 @@ export const projects = [
     id: 1,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    img: "/projects/ysj.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    linkTitle: "/ui.earth.com",
+    linkHref: "https://twitter.com/mannupaaji"
   },
   {
     id: 2,
     title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    img: "/projects/blog.jpeg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    linkTitle: "/elzero",
+    linkHref: "https://elzero.org"
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/projects/iyna.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    linkTitle: "/ui.earth.com",
+    linkHref: "https://twitter.com/mannupaaji"
   },
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    img: "/projects/school.jpeg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    linkTitle: "/ui.earth.com",
+    linkHref: "https://twitter.com/mannupaaji"
   },
 ];
 
@@ -204,14 +302,20 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    title: "github",
     img: "/git.svg",
+    link: "https://github.com/Glory-Dev",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    title: "front-end mentor",
+    img: "/frontendmentor.svg",
+    link: "https://www.frontendmentor.io/profile/Glory-Dev",
   },
   {
     id: 3,
+    title: "linked-in",
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/amjad-mounir/",
   },
 ];
