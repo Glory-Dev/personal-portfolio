@@ -6,97 +6,148 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const socialMedia = [
+  {
+    id: 1,
+    title: "github",
+    img: "/tools/git.svg",
+    link: "https://github.com/Glory-Dev",
+  },
+  {
+    id: 2,
+    title: "front-end mentor",
+    img: "/tools/frontendmentor.svg",
+    link: "https://www.frontendmentor.io/profile/Glory-Dev",
+  },
+  {
+    id: 3,
+    title: "linked-in",
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/amjad-mounir/",
+  },
+];
+
 export const skills = [
   {
     id: 1,
     img: "/tools/html.png",
     title: "HTML",
+    experience: "6 years"
   },
   {
     id: 2,
     img: "/tools/css.png",
     title: "CSS",
+    experience: "6 years"
   },
   {
     id: 3,
     img: "/tools/js.png",
     title: "Javascript",
+    experience: "6 years"
   },
   {
     id: 4,
     img: "/tools/ts.svg",
     title: "Typescript",
+    experience: "3 years"
   },
   {
     id: 5,
     img: "/tools/re.svg",
     title: "React.js",
+    experience: "1 years"
   },
   {
     id: 6,
     img: "/tools/next.svg",
     title: "Next.js",
+    experience: "1 years"
   },
   {
     id: 7,
     img: "/tools/astro.png",
     title: "Astro",
+    experience: "2 projects"
   },
   {
     id: 8,
     img: "/tools/bootstrap.png",
     title: "Bootstrap",
+    experience: "6 projects"
   },
   {
     id: 9,
     img: "/tools/tail.svg",
     title: "Tailwind CSS",
+    experience: "3 projects"
   },
   {
     id: 10,
     img: "/tools/sass.png",
     title: "SASS",
+    experience: "4 years"
   },
   {
     id: 11,
     img: "/tools/pug.png",
     title: "Pug.js",
+    experience: "4 years"
   },
   {
     id: 12,
     img: "/tools/gulp.png",
     title: "Gulp.js",
+    experience: "Task Runner"
   },
   {
     id: 13,
     img: "/tools/cpp.png",
     title: "C++",
+    experience: "Beginner"
   },
   {
     id: 14,
     img: "/tools/python.png",
     title: "Python",
+    experience: "Automating Tasks"
   },
   {
     id: 15,
     img: "/tools/command-line.png",
     title: "Command Line",
+    experience: ""
   },
   {
     id: 16,
     img: "/tools/github.png",
     title: "Github",
+    experience: "VCS"
   },
   {
     id: 17,
     img: "/tools/notion.png",
     title: "Notion",
+    experience: "Management"
   },
   {
     id: 18,
     img: "/tools/chatgpt.png",
-    title: "Chat GPT",
+    title: "ChatGPT",
+    experience: "Copilot"
   },
+  {
+    id: 19,
+    img: "/tools/vs-code.png",
+    title: "VS Code",
+    experience: "Main IDE",
+  },
+  {
+    id: 20,
+    img: "/tools/latex.png",
+    title: "LaTeX",
+    experience: "Math"
+  }
 ]
 
 export const gridItems = [
@@ -166,40 +217,85 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Youth Science Journal",
+    des: "Refactoring using Astro to deliver fast-loading, SEO-friendly pages with easy content management through Markdown. Its static generation provides smooth navigation across articles and issues, while MDX support enables interactive elements for an engaging reader experience.",
     img: "/projects/ysj.jpeg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    linkTitle: "/ui.earth.com",
-    linkHref: "https://twitter.com/mannupaaji"
+    iconLists: ["astro.png", "tail.svg", "ts.svg", "re.svg", "python.png", "latex.png"],
+    linkTitle: "/ysj.org",
+    linkHref: "https://www.ys-journal.org/"
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Blog Web App",
+    des: "Practicing blog application with Astro to launch my blog and share my experience",
     img: "/projects/blog.jpeg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    linkTitle: "/elzero",
-    linkHref: "https://elzero.org"
+    iconLists: ["astro.png", "tail.svg", "ts.svg", "re.svg"],
+    linkTitle: "/astro.blog",
+    linkHref: "https://jqq-astro-blog.vercel.app/"
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "IYNA Gharbiya Chapter",
+    des: "Breaking down socioeconomic and geographic barriers in neuroscience educatio. IYNA Gharbiya chapter achieved a great achievement, taking first place in this season on all IYNA chapters",
     img: "/projects/iyna.jpeg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    linkTitle: "/ui.earth.com",
-    linkHref: "https://twitter.com/mannupaaji"
+    iconLists: ["html.png", "sass.png", "bootstrap.png", "gulp.png", "js.png"],
+    linkTitle: "/iyna.gh",
+    linkHref: "https://glory-dev.github.io/iyna-gharbiya-chapter/stage/"
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Gharbiya STEM Official Website",
+    des: "Built school website from scratch with 15+ pages in dark theme",
     img: "/projects/school.jpeg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    linkTitle: "/ui.earth.com",
-    linkHref: "https://twitter.com/mannupaaji"
+    iconLists: ["html.png", "sass.png", "bootstrap.png", "gulp.png", "pug.png", "js.png"],
+    linkTitle: "/stemgharbiya.org",
+    linkHref: "https://glory-dev.github.io/Gharbia-STEM/"
   },
+  {
+    id: 5,
+    title: "Gravitational Wave Program",
+    des: "Gravitational Wave is a intensive high school program for Physics enthusiasts",
+    img: "/projects/gw.jpeg",
+    iconLists: ["html.png", "sass.png", "bootstrap.png", "gulp.png", "pug.png", "js.png"],
+    linkTitle: "/gw.org",
+    linkHref: "https://gravitationalwave.net/"
+  },
+  {
+    id: 6,
+    title: "Bananastic Startup",
+    des: "A startup project that aims to achieve sustainability and responsible production of the packaging industry, by offering eco-friendly packaging materials manufactured of banana tree wastes. Our products ideally equip the marketplace needs by offering the premium quality, cost effectiveness, and successively obtaining the ability of acting as fertilizers after usage, which gives us an edge beyond our competitors.",
+    img: "/projects/bananastic.jpeg",
+    iconLists: ["html.png", "sass.png", "bootstrap.png", "js.png"],
+    linkTitle: "/bananastic.com",
+    linkHref: "https://glory-dev.github.io/bananastic/"
+  },
+  {
+    id: 7,
+    title: "Kasper Template",
+    des: "The Kasper template is a clean and modern one-page PSD design, perfect for creative professionals and agencies. It offers a sleek, minimalist layout that emphasizes visuals and typography, making it ideal for portfolios, personal projects, or small businesses. Kasper includes sections for showcasing work, services, testimonials, and contact information, all designed with a focus on clarity and user engagement. Its responsive design elements and easily customizable layers make it simple to adapt to various branding needs, ensuring a professional and polished presentation for any creative project",
+    img: "/projects/kasper.jpeg",
+    iconLists: ["html.png", "sass.png", "bootstrap.png"],
+    linkTitle: "/kasper.com",
+    linkHref: "https://glory-dev.github.io/kasper-template/"
+  },
+  {
+    id: 8,
+    title: "Bondi Template",
+    des: "The Bondi template is a sleek, single-page PSD landing page design, ideal for startups, app launches, or product showcases. Its clean and modern layout is optimized for concise messaging and strong visuals, helping highlight key features, benefits, and calls-to-action effectively. Bondi’s organized, customizable layers make it easy to adapt to various brand aesthetics, ensuring a polished and engaging presentation tailored for conversions.",
+    img: "/projects/bondi.jpeg",
+    iconLists: ["html.png", "css.png", "bootstrap.png"],
+    linkTitle: "/bondi.com",
+    linkHref: "https://glory-dev.github.io/bondi-template/"
+  },
+  {
+    id: 9,
+    title: "Leon Template",
+    des: "The Leon template is a versatile, stylish PSD design tailored for agencies and creative businesses. With a clean and sophisticated layout, it features dedicated sections for showcasing services, team members, portfolio highlights, client testimonials, and more. Leon’s structured design emphasizes readability and visual appeal, making it easy to present agency work with professionalism. Customizable and organized layers allow for seamless adjustments, providing an adaptable foundation for any brand identity",
+    img: "/projects/kasper.jpeg",
+    iconLists: ["html.png", "css.png", "sass.png"],
+    linkTitle: "/leon.com",
+    linkHref: "https://glory-dev.github.io/leon-template/"
+  }
 ];
 
 export const testimonials = [
@@ -293,23 +389,3 @@ export const workExperience = [
   },
 ];
 
-export const socialMedia = [
-  {
-    id: 1,
-    title: "github",
-    img: "/tools/git.svg",
-    link: "https://github.com/Glory-Dev",
-  },
-  {
-    id: 2,
-    title: "front-end mentor",
-    img: "/tools/frontendmentor.svg",
-    link: "https://www.frontendmentor.io/profile/Glory-Dev",
-  },
-  {
-    id: 3,
-    title: "linked-in",
-    img: "/link.svg",
-    link: "https://www.linkedin.com/in/amjad-mounir/",
-  },
-];

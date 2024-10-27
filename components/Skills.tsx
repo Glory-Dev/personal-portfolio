@@ -1,19 +1,12 @@
 import { skills } from "@/data";
-import { SkillsBenoGrid, SkillsBentoGridItem } from "./ui/SkillsBentoGrid";
+import { AnimatedTooltip } from "./ui/animated-tooltip";
 
 const Grid = () => {
   return (
-    <section id="skills">
-      <SkillsBenoGrid className="w-full pb-20">
-        {skills.map((item, i) => (
-          <SkillsBentoGridItem
-            id={item.id}
-            key={i}
-            title={item.title}
-            img={item.img}
-          />
-        ))}
-      </SkillsBenoGrid>
+    <section id="skills" className="pb-12">
+      <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 md:grid-row-7 gap-4 lg:gap-6 mx-auto">
+        <AnimatedTooltip items={skills} />
+      </div>
     </section>
   );
 };
