@@ -150,70 +150,6 @@ export const skills = [
   }
 ]
 
-export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
-
-  {
-    id: 5,
-    title: "Currently studying at Gharbiya STEM High School and Building my Blog",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
-];
-
 export const projects = [
   {
     id: 1,
@@ -301,27 +237,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      " Working with Amjad, I was never concerned about any deficiencies in the website affecting our services. I simply left the technical aspects to him and focused on producing the best of our materials. For these reasons, I highly recommend him for any institution.",
+      "Working with Amjad, I was never concerned about any deficiencies in the website affecting our services. I simply left the technical aspects to him and focused on producing the best of our materials. For these reasons, I highly recommend him for any institution.",
     name: "Omar EL-Sayed",
+    img: "omar-shalaby.jpeg",
     title: "Gravitational Wave (GW) Program Founder",
   },
   {
     quote:
       "Amjad and I developed multiple projects together and he was the mastermind behind all of them. His ability to turn problems into opportunities to learn new technologies is giving him expereince in the field. Amjad could picture code structure and map out its steps, and even automate some parts of the proccess. I see that the way he develops plans to achieve a target will definitely get him far in the field",
     name: "Abdelrahman Ibrahim",
+    img: "abdel-ibrahim.jpg",
     title: "UI/UX Designer & Front-End Developer",
   },
   {
     quote:
-      "",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet at tempora facilis, odio reprehenderit temporibus id repellat laboriosam ad obcaecati odit eligendi sint, iste harum cum alias magnam ipsa! Minus temporibus quia impedit nihil atque veniam rem perferendis facilis. Blanditiis similique, deserunt sed quia ab maxime dolores ad dolorem. Laudantium?",
     name: "Momen Ashraf",
+    img: "momen-ashraf.png",
     title: "Youth Science Journal President",
   },
   {
     quote:
-      "",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet at tempora facilis, odio reprehenderit temporibus id repellat laboriosam ad obcaecati odit eligendi sint, iste harum cum alias magnam ipsa! Minus temporibus quia impedit nihil atque veniam rem perferendis facilis. Blanditiis similique, deserunt sed quia ab maxime dolores ad dolorem. Laudantium?",
     name: "Omar Saad",
+    img: "omar-saad.jpg",
     title: "IYNA Gharbiya Chapter Former President",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet at tempora facilis, odio reprehenderit temporibus id repellat laboriosam ad obcaecati odit eligendi sint, iste harum cum alias magnam ipsa! Minus temporibus quia impedit nihil atque veniam rem perferendis facilis. Blanditiis similique, deserunt sed quia ab maxime dolores ad dolorem. Laudantium?",
+    name: "Abdallah Ashmawy",
+    title: "Student @EJUST",
+    img: "",
   },
 ];
 
@@ -355,6 +302,70 @@ export const companies = [
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
+  },
+];
+
+export const gridItems = [
+  {
+    id: 1,
+    title: "I prioritize client collaboration, fostering open communication ",
+    description: "",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    imgClassName: "w-full h-full",
+    titleClassName: "justify-end",
+    img: "/b1.svg",
+    spareImg: "",
+  },
+  {
+    id: 2,
+    title: "I'm very flexible with time zone communications",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 3,
+    title: "",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-center",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 4,
+    title: "Tech enthusiast with a passion for development.",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "/grid.svg",
+    spareImg: "/b4.svg",
+  },
+
+  {
+    id: 5,
+    title: "Currently studying at Gharbiya STEM High School and Building my Blog",
+    description: "The Inside Scoop",
+    className: "md:col-span-3 md:row-span-2",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    titleClassName: "justify-center md:justify-start lg:justify-center",
+    img: "/b5.svg",
+    spareImg: "/grid.svg",
+  },
+  {
+    id: 6,
+    title: "Do you want to start a project together?",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    img: "",
+    spareImg: "",
   },
 ];
 
