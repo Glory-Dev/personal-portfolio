@@ -4,7 +4,10 @@ import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { socialMedia } from "@/data";
+<<<<<<< HEAD
 import Image from "next/image";
+=======
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
 
 const Hero = () => {
   return (
@@ -58,7 +61,11 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-x-3 gap-y-4">
+<<<<<<< HEAD
             <a href="#projects" title="Projects">
+=======
+            <a href="#about">
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
               <MagicButton
                 title="Show my work"
                 icon={<FaLocationArrow />}
@@ -71,7 +78,11 @@ const Hero = () => {
                 href={info.link}
                 className="w-12 h-12 md:mt-10 cursor-pointer overflow-hidden p-[1px] flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 focus:outline-none"
               >
+<<<<<<< HEAD
                 <Image src={info.img} alt="icons" width={20} height={20} />
+=======
+                <img src={info.img} alt="icons" width={20} height={20} />
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
               </a>
             ))}
             <a href="https://drive.google.com/file/d/1Z7-ng5YKwNtWMEtEgr8pS2JincCwg79V/view?usp=sharing" target="_blank" rel="noopener" title="Resume">

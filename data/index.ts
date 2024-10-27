@@ -9,92 +9,164 @@ export const navItems = [
 export const skills = [
   {
     id: 1,
+<<<<<<< HEAD
     img: "/tools/html.png",
+=======
+    img: "html.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "HTML",
   },
   {
     id: 2,
+<<<<<<< HEAD
     img: "/tools/css.png",
+=======
+    img: "css.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "CSS",
   },
   {
     id: 3,
+<<<<<<< HEAD
     img: "/tools/js.png",
+=======
+    img: "js.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Javascript",
   },
   {
     id: 4,
+<<<<<<< HEAD
     img: "/tools/ts.svg",
+=======
+    img: "ts.svg",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Typescript",
   },
   {
     id: 5,
+<<<<<<< HEAD
     img: "/tools/re.svg",
+=======
+    img: "re.svg",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "React.js",
   },
   {
     id: 6,
+<<<<<<< HEAD
     img: "/tools/next.svg",
+=======
+    img: "next.svg",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Next.js",
   },
   {
     id: 7,
+<<<<<<< HEAD
     img: "/tools/astro.png",
+=======
+    img: "astro.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Astro",
   },
   {
     id: 8,
+<<<<<<< HEAD
     img: "/tools/bootstrap.png",
+=======
+    img: "bootstrap.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Bootstrap",
   },
   {
     id: 9,
+<<<<<<< HEAD
     img: "/tools/tail.svg",
+=======
+    img: "tail.svg",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Tailwind CSS",
   },
   {
     id: 10,
+<<<<<<< HEAD
     img: "/tools/sass.png",
+=======
+    img: "sass.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "SASS",
   },
   {
     id: 11,
+<<<<<<< HEAD
     img: "/tools/pug.png",
+=======
+    img: "pug.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Pug.js",
   },
   {
     id: 12,
+<<<<<<< HEAD
     img: "/tools/gulp.png",
+=======
+    img: "gulp.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Gulp.js",
   },
   {
     id: 13,
+<<<<<<< HEAD
     img: "/tools/cpp.png",
+=======
+    img: "cpp.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "C++",
   },
   {
     id: 14,
+<<<<<<< HEAD
     img: "/tools/python.png",
+=======
+    img: "python.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Python",
   },
   {
     id: 15,
+<<<<<<< HEAD
     img: "/tools/command-line.png",
+=======
+    img: "command-line.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Command Line",
   },
   {
     id: 16,
+<<<<<<< HEAD
     img: "/tools/github.png",
+=======
+    img: "github.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Github",
   },
   {
     id: 17,
+<<<<<<< HEAD
     img: "/tools/notion.png",
+=======
+    img: "notion.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Notion",
   },
   {
     id: 18,
+<<<<<<< HEAD
     img: "/tools/chatgpt.png",
+=======
+    img: "chatgpt.png",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     title: "Chat GPT",
   },
 ]
@@ -297,13 +369,21 @@ export const socialMedia = [
   {
     id: 1,
     title: "github",
+<<<<<<< HEAD
     img: "/tools/git.svg",
+=======
+    img: "/git.svg",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     link: "https://github.com/Glory-Dev",
   },
   {
     id: 2,
     title: "front-end mentor",
+<<<<<<< HEAD
     img: "/tools/frontendmentor.svg",
+=======
+    img: "/frontendmentor.svg",
+>>>>>>> 16b70921e67b09b9590f7268afbcf2843482dd87
     link: "https://www.frontendmentor.io/profile/Glory-Dev",
   },
   {
