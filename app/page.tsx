@@ -1,16 +1,15 @@
 "use client";
-
 import { navItems } from "@/data";
-
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
-import Grid from "@/components/Grid";
-import Footer from "@/components/Footer";
-import Clients from "@/components/Clients";
-import Approach from "@/components/Approach";
-import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import Clients from "@/components/Clients";
+import ExperienceTimeline from "@/components/Experience";
+// import Grid from "@/components/Grid";
+// import Footer from "@/components/Footer";
+// import Approach from "@/components/Approach";
+// import Experience from "@/components/Experience";
 
 const Home = () => {
   return (
@@ -21,6 +20,7 @@ const Home = () => {
         <Skills />
         <Projects />
         <Clients />
+        <ExperienceTimeline />
         {/* <Grid /> */}
         {/* <Experience /> */}
         {/* <Approach /> */}
