@@ -156,7 +156,7 @@ export const projects = [
     title: "Youth Science Journal",
     des: "Refactoring using Astro to deliver fast-loading, SEO-friendly pages with easy content management through Markdown. Its static generation provides smooth navigation across articles and issues, while MDX support enables interactive elements for an engaging reader experience.",
     img: "/projects/ysj.jpeg",
-    iconLists: ["astro.png", "tail.svg", "ts.svg", "re.svg", "python.png", "latex.png"],
+    iconLists: ["astro.png",  "re.svg", "python.png", "bootstrap.png", "html.png", "sass.png", "python.png", "latex.png"],
     linkTitle: "/ysj.org",
     linkHref: "https://www.ys-journal.org/"
   },
@@ -165,21 +165,12 @@ export const projects = [
     title: "Blog Web App",
     des: "Practicing blog application with Astro to launch my blog and share my experience",
     img: "/projects/blog.jpeg",
-    iconLists: ["astro.png", "tail.svg", "ts.svg", "re.svg"],
+    iconLists: ["astro.png", "tail.svg", "next.svg", "ts.svg", "re.svg"],
     linkTitle: "/astro.blog",
     linkHref: "https://jqq-astro-blog.vercel.app/"
   },
   {
     id: 3,
-    title: "IYNA Gharbiya Chapter",
-    des: "Breaking down socioeconomic and geographic barriers in neuroscience educatio. IYNA Gharbiya chapter achieved a great achievement, taking first place in this season on all IYNA chapters",
-    img: "/projects/iyna.jpeg",
-    iconLists: ["html.png", "sass.png", "bootstrap.png", "gulp.png", "js.png"],
-    linkTitle: "/iyna.gh",
-    linkHref: "https://glory-dev.github.io/iyna-gharbiya-chapter/stage/"
-  },
-  {
-    id: 4,
     title: "Gharbiya STEM Official Website",
     des: "Built school website from scratch with 15+ pages in dark theme",
     img: "/projects/school.jpeg",
@@ -188,16 +179,34 @@ export const projects = [
     linkHref: "https://glory-dev.github.io/Gharbia-STEM/"
   },
   {
+    id: 4,
+    title: "IYNA Gharbiya Chapter",
+    des: "Breaking down socioeconomic and geographic barriers in neuroscience educatio. IYNA Gharbiya chapter achieved a great achievement, taking first place in this season on all IYNA chapters",
+    img: "/projects/iyna.jpeg",
+    iconLists: ["html.png", "sass.png", "bootstrap.png", "gulp.png", "js.png"],
+    linkTitle: "/iyna.gh",
+    linkHref: "https://glory-dev.github.io/iyna-gharbiya-chapter/stage/"
+  },
+  {
     id: 5,
     title: "Gravitational Wave Program",
     des: "Gravitational Wave is a intensive high school program for Physics enthusiasts",
     img: "/projects/gw.jpeg",
-    iconLists: ["html.png", "sass.png", "bootstrap.png", "gulp.png", "pug.png", "js.png"],
+    iconLists: ["html.png", "sass.png", "bootstrap.png", "js.png"],
     linkTitle: "/gw.org",
     linkHref: "https://gravitationalwave.net/"
   },
   {
     id: 6,
+    title: "Artificial Diabetes Treatment",
+    des: "Gravitational Wave is a intensive high school program for Physics enthusiasts",
+    img: "/projects/diabetes.jpeg",
+    iconLists: ["html.png", "css.png", "js.png", "python.png", "jinja.png", "colab.png"],
+    linkTitle: "/diabetes-treatment",
+    linkHref: "https://glory-dev.github.io/Artificial-Diabetes-treatment/"
+  },
+  {
+    id: 7,
     title: "Bananastic Startup",
     des: "A startup project that aims to achieve sustainability and responsible production of the packaging industry, by offering eco-friendly packaging materials manufactured of banana tree wastes. Our products ideally equip the marketplace needs by offering the premium quality, cost effectiveness, and successively obtaining the ability of acting as fertilizers after usage, which gives us an edge beyond our competitors.",
     img: "/projects/bananastic.jpeg",
@@ -206,7 +215,7 @@ export const projects = [
     linkHref: "https://glory-dev.github.io/bananastic/"
   },
   {
-    id: 7,
+    id: 8,
     title: "Kasper Template",
     des: "The Kasper template is a clean and modern one-page PSD design, perfect for creative professionals and agencies. It offers a sleek, minimalist layout that emphasizes visuals and typography, making it ideal for portfolios, personal projects, or small businesses. Kasper includes sections for showcasing work, services, testimonials, and contact information, all designed with a focus on clarity and user engagement. Its responsive design elements and easily customizable layers make it simple to adapt to various branding needs, ensuring a professional and polished presentation for any creative project",
     img: "/projects/kasper.jpeg",
@@ -215,7 +224,7 @@ export const projects = [
     linkHref: "https://glory-dev.github.io/kasper-template/"
   },
   {
-    id: 8,
+    id: 9,
     title: "Bondi Template",
     des: "The Bondi template is a sleek, single-page PSD landing page design, ideal for startups, app launches, or product showcases. Its clean and modern layout is optimized for concise messaging and strong visuals, helping highlight key features, benefits, and calls-to-action effectively. Bondi’s organized, customizable layers make it easy to adapt to various brand aesthetics, ensuring a polished and engaging presentation tailored for conversions.",
     img: "/projects/bondi.jpeg",
@@ -224,7 +233,7 @@ export const projects = [
     linkHref: "https://glory-dev.github.io/bondi-template/"
   },
   {
-    id: 9,
+    id: 10,
     title: "Leon Template",
     des: "The Leon template is a versatile, stylish PSD design tailored for agencies and creative businesses. With a clean and sophisticated layout, it features dedicated sections for showcasing services, team members, portfolio highlights, client testimonials, and more. Leon’s structured design emphasizes readability and visual appeal, making it easy to present agency work with professionalism. Customizable and organized layers allow for seamless adjustments, providing an adaptable foundation for any brand identity",
     img: "/projects/kasper.jpeg",
@@ -258,24 +267,57 @@ export const testimonials = [
   },
   {
     quote:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet at tempora facilis, odio reprehenderit temporibus id repellat laboriosam ad obcaecati odit eligendi sint, iste harum cum alias magnam ipsa! Minus temporibus quia impedit nihil atque veniam rem perferendis facilis. Blanditiis similique, deserunt sed quia ab maxime dolores ad dolorem. Laudantium?",
+      "Amjad's website was a hit for IYNA! It's stunning, easy to navigate, and perfect for our  1500-competitor contest. Amjad's dedication and expertise shine through every detail. We're so grateful for his hard work! He truly went above and beyond.If you need a website that truly wows, Amjad is your go-to.",
     name: "Omar Saad",
     img: "omar-saad.jpg",
     title: "IYNA Gharbiya Chapter Former President",
   },
   {
     quote:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet at tempora facilis, odio reprehenderit temporibus id repellat laboriosam ad obcaecati odit eligendi sint, iste harum cum alias magnam ipsa! Minus temporibus quia impedit nihil atque veniam rem perferendis facilis. Blanditiis similique, deserunt sed quia ab maxime dolores ad dolorem. Laudantium?",
+      "Amjad helped me a lot with the capstone project due to the software section as he was really helpful person and his work was really affective and saved the project in little time.",
     name: "Abdallah Ashmawy",
-    title: "Student @EJUST",
-    img: "",
+    title: "Student @E-JUST University",
+    img: "ashmawy.png",
   },
   {
     quote: "Working with Amjad to have a website is truly exceptional. His commitment to quality ensures that you end up with a seamless, well-functioning website that meets all your needs without any hassle. Amjad takes care of every detail, making the process smooth and stress-free.",
     name: "Adham Abo-Tarboush",
     title: "Gharbiya STEM '24",
-    img: "",
+    img: "leo.png",
   }
+];
+
+export const gallery = [
+  {
+    img: "gallery/summer-camp.jpg",
+    title: "Gharbiya STEM Summer Camp",
+    date: "27 Sep, 2022",
+  },
+  {
+    img: "gallery/gh-25.jpg",
+    title: "Gharbiya STEM Class of 2025",
+    date: "8 Jan, 2023",
+  },
+  {
+    img: "gallery/biab.jpg",
+    title: "Build in a Box Egypt Camp",
+    date: "8 Aug, 2023",
+  },
+  {
+    img: "gallery/moch-exhibition.jpg",
+    title: "G10 Mock Exhibition",
+    date: "30 Dec, 2023",
+  },
+  {
+    img: "gallery/g11-exhibition.jpg",
+    title: "G11 First Semester Capstone Exhibition",
+    date: "8 Jan, 2024",
+  },
+  {
+    img: "gallery/g11-exhibition-2.jpg",
+    title: "G11 Second Semester Capstone Exhibition",
+    date: "14 May, 2024",
+  },
 ];
 
 // export const companies = [
