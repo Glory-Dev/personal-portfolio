@@ -216,6 +216,15 @@ export const projects = [
   },
   {
     id: 8,
+    title: "Feedback-controlled solar-harvesting system for sustainable house",
+    des: "This project focuses on building a smart, eco-friendly house in Egypt using solar energy. It integrates a unique construction method with a solar-powered feedback system that optimizes temperature and humidity, achieving sustainable living.",
+    img: "/projects/cap.png",
+    iconLists: ["cpp.png"],
+    linkTitle: "/project-documents.com",
+    linkHref: "https://drive.google.com/drive/folders/1LR6GNcrGfWWEPJ-uBoX2AAqpeItqINnY"
+  },
+  {
+    id: 9,
     title: "Kasper Template",
     des: "The Kasper template is a clean and modern one-page PSD design, perfect for creative professionals and agencies. It offers a sleek, minimalist layout that emphasizes visuals and typography, making it ideal for portfolios, personal projects, or small businesses. Kasper includes sections for showcasing work, services, testimonials, and contact information, all designed with a focus on clarity and user engagement. Its responsive design elements and easily customizable layers make it simple to adapt to various branding needs, ensuring a professional and polished presentation for any creative project",
     img: "/projects/kasper.jpeg",
@@ -224,7 +233,7 @@ export const projects = [
     linkHref: "https://glory-dev.github.io/kasper-template/"
   },
   {
-    id: 9,
+    id: 10,
     title: "Bondi Template",
     des: "The Bondi template is a sleek, single-page PSD landing page design, ideal for startups, app launches, or product showcases. Its clean and modern layout is optimized for concise messaging and strong visuals, helping highlight key features, benefits, and calls-to-action effectively. Bondi’s organized, customizable layers make it easy to adapt to various brand aesthetics, ensuring a polished and engaging presentation tailored for conversions.",
     img: "/projects/bondi.jpeg",
@@ -233,7 +242,7 @@ export const projects = [
     linkHref: "https://glory-dev.github.io/bondi-template/"
   },
   {
-    id: 10,
+    id: 11,
     title: "Leon Template",
     des: "The Leon template is a versatile, stylish PSD design tailored for agencies and creative businesses. With a clean and sophisticated layout, it features dedicated sections for showcasing services, team members, portfolio highlights, client testimonials, and more. Leon’s structured design emphasizes readability and visual appeal, making it easy to present agency work with professionalism. Customizable and organized layers allow for seamless adjustments, providing an adaptable foundation for any brand identity",
     img: "/projects/kasper.jpeg",
