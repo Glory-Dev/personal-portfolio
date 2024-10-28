@@ -7,20 +7,79 @@ import { FaAnglesRight } from "react-icons/fa6";
 export default function ExperienceTimeline() {
   const data = [
     {
-      title: "Present",
-      comment: "Web Developer & Freelancer",
+      title: "2020",
+      comment: "COVID Quarantine ",
       content: (
-        <div className="text-center">
-          <div className=" text-neutral-700 dark:text-neutral-300 text-lg md:text-5xl font-bold pb-5 md:pb-0">
-            Looking for internships!
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-normal mb-4">
+            Started my journey in Web Development With Elzero Web School
+          </p>
+          <div className="mb-8">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+              ✅ Fundamentals of Front-End Development (HTML, CSS, JS)
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+              ✅ Practice with Templates & Tutorials
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+              ✅ Markdown, Git & Github
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+              ✅ 20+ Front-End Mentor Challenges
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+              ✅ Made a Notion dashboard recruted with resources and cheatsheets
+            </div>
           </div>
-          <a href="#contact" target="_blank" rel="noopener" title="Hire Me" className="inline-block">
-            <MagicButton
-              title="HIRE ME"
-              icon={<FaAnglesRight  />}
-              position="right"
-            />
-          </a>
+          <div className="grid grid-cols-2 gap-4">
+            {["tutorial-1.png", "tutorial-2.jpg", "tutorial-3.jpg", "tutorial-4.jpg", "tutorial-5.jpg", "tutorial-6.png"].map((tutorial) => (
+              <Image
+                key={tutorial}
+                src={`/projects/${tutorial}`}
+                alt="hero template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            ))}
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Late 2022",
+      comment: "High School",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-4">
+            👨‍🎓 Admitted to Gharbiya STEM High School (470th/+20,000)
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-4">
+            Pasued Web Development Work and Practiced Problem Solving on <span className="text-[#f05656]">Codewars</span> with Javascript, Python, and Typescript
+          </p>
+          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+            ⚪ Problem-solving
+          </div>
+          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+            ⚪ Critical Thinking
+          </div>
+          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+            ⚪ Competitive Programming
+          </div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal my-4">
+            💻 Head of Gharbiya STEM Learning Entertainment Program @CS Department
+            <ul className="pl-3 list-disc list-inside mt-2 leading-7">
+              <li>Lead a team of 6 mentors in a school summer program for primary and prep students</li>
+              <li>Organized 2 sessions/week; teaching them the fundamentals of CS including web development, video editing, scratch, and Microsoft PowerPoint.</li>
+            </ul>
+          </p>
+          <Image
+            src="stem.svg"
+            alt="Gharbiya STEM High School"
+            width={300}
+            height={300}
+            className="mx-auto mt-10 object-cover"
+          />
         </div>
       ),
     },
@@ -73,79 +132,20 @@ export default function ExperienceTimeline() {
       ),
     },
     {
-      title: "Late 2022",
-      comment: "High School",
+      title: "Present",
+      comment: "Web Developer & Freelancer",
       content: (
-        <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-4">
-            👨‍🎓 Admitted to Gharbiya STEM High School (470th/+20,000)
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-4">
-            Pasued Web Development Work and Practiced Problem Solving on <span className="text-[#f05656]">Codewars</span> with Javascript, Python, and Typescript
-          </p>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-            ⚪ Problem-solving
+        <div className="text-center">
+          <div className=" text-neutral-700 dark:text-neutral-300 text-lg md:text-5xl font-bold pb-5 md:pb-0">
+            Looking for internships!
           </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-            ⚪ Critical Thinking
-          </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-            ⚪ Competitive Programming
-          </div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal my-4">
-            💻 Head of Gharbiya STEM Learning Entertainment Program @CS Department
-            <ul className="pl-3 list-disc list-inside mt-2 leading-7">
-              <li>Lead a team of 6 mentors in a school summer program for primary and prep students</li>
-              <li>Organized 2 sessions/week; teaching them the fundamentals of CS including web development, video editing, scratch, and Microsoft PowerPoint.</li>
-            </ul>
-          </p>
-          <Image
-            src="stem.svg"
-            alt="Gharbiya STEM High School"
-            width={300}
-            height={300}
-            className="mx-auto mt-10 object-cover"
-          />
-        </div>
-      ),
-    },
-    {
-      title: "2020",
-      comment: "COVID Quarantine ",
-      content: (
-        <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-normal mb-4">
-            Started my journey in Web Development With Elzero Web School
-          </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-              ✅ Fundamentals of Front-End Development (HTML, CSS, JS)
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-              ✅ Practice with Templates & Tutorials
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-              ✅ Markdown, Git & Github
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-              ✅ 20+ Front-End Mentor Challenges
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-              ✅ Made a Notion dashboard recruted with resources and cheatsheets
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            {["tutorial-1.png", "tutorial-2.jpg", "tutorial-3.jpg", "tutorial-4.jpg", "tutorial-5.jpg", "tutorial-6.png"].map((tutorial) => (
-              <Image
-                key={tutorial}
-                src={`/projects/${tutorial}`}
-                alt="hero template"
-                width={500}
-                height={500}
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            ))}
-          </div>
+          <a href="#contact" rel="noopener" title="Hire Me" className="inline-block">
+            <MagicButton
+              title="HIRE ME"
+              icon={<FaAnglesRight  />}
+              position="right"
+            />
+          </a>
         </div>
       ),
     },

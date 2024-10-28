@@ -6,10 +6,9 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Clients from "@/components/Clients";
 import ExperienceTimeline from "@/components/Experience";
-// import Grid from "@/components/Grid";
-// import Footer from "@/components/Footer";
-// import Approach from "@/components/Approach";
-// import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import Approach from "@/components/Approach";
 
 const Home = () => {
   return (
@@ -21,10 +20,9 @@ const Home = () => {
         <Projects />
         <Clients />
         <ExperienceTimeline />
-        {/* <Grid /> */}
-        {/* <Experience /> */}
-        {/* <Approach /> */}
-        {/* <Footer /> */}
+        <Approach />
+        <Contact />
+        <Footer />
       </div>
     </main>
   );
